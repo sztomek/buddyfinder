@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingErrorConstraintLayout">
+        <attr name="loadingMessage" format="reference|string" />
+        <attr name="retryMessage" format="reference|string" />
+        <attr name="retryImage" format="reference" />
+        <attr name="content" format="reference" />
+        <attr name="state" format="enum">
+            <enum name="idle" value="1" />
+            <enum name="loading" value="2" />
+            <enum name="error" value="3" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SwipeRefreshEmptyView">
+        <attr name="emptyMessage" format="string|reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="CollapsableFilter">
+        <attr name="status" format="enum">
+            <enum name="collapsed" value="1"/>
+            <enum name="expanded" value="2"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
